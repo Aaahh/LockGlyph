@@ -233,6 +233,11 @@ static void performShakeFingerFailAnimation(void) {
 	}
 }
 
+-(void)dealloc {
+	[[NSNotificationCenter defaultCenter] removeObserver:self];
+	%orig;
+}
+
 -(void)didMoveToWindow {
 	if (!self.window) {
 		fingerglyph = nil;
