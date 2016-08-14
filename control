@@ -1,7 +1,7 @@
 Package: com.evilgoldfish.lockglyph
 Name: LockGlyph
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
-Version: 1.1.13
+Version: 1.1.14
 Architecture: iphoneos-arm
 Description: Adds the Apple Pay completed payment animation to the lockscreen, and animates when unlocking the device with Touch ID.
 Maintainer: evilgoldfish
